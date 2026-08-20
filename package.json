@@ -2,16 +2,24 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Jiyaaaaas/temp-node-repo#readme",
+  "bugs": {
+    "url": "https://github.com/Jiyaaaaas/temp-node-repo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiyaaaaas/temp-node-repo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "bootstrap": "^5.3.8",
     "lodash": "^4.18.1"
   },
   "devDependencies": {
