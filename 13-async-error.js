@@ -21,7 +21,7 @@ server.listen(5000, () => {
     
 })
 // In the above code, if there are 3 pages open of the port 5000, then until one page completes it's count till 1000,
-// the rest 2 pages will be freezed. Hence, this is one of the problems in Asynchronous Functions.
+// the rest 2 pages will be freezed. Hence, this is one of the problems in Asynchronous Functions called Callback Hell
  
 // WITHOUT PROMISES
 
